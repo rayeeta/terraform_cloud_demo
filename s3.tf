@@ -1,9 +1,9 @@
-resource "aws_s3_bucket" "rayeetaBelgium" {
-  bucket = "rayeetaBelgium"  # Must be globally unique
+resource "aws_s3_bucket" "rayeeta_belgium" {
+  bucket = "rayeeta-belgium"  # ✅ all lowercase and hyphen-separated
   acl    = "private"
 
   tags = {
-    Name        = "DemoBucket"
+    Name        = "Rayeeta Belgium"
     Environment = "Dev"
   }
 }
